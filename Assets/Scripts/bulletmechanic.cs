@@ -4,7 +4,7 @@ using System.Collections;
 public class BulletBehaviour : MonoBehaviour
 {
     public float speed, damage, destroyTime;
-    public float wait = 0.3f;
+    public float wait = 0.3f; // waktu tunggu sebelum destroy
     public float flyDuration = 3f;
 
     private Animator anim;
@@ -14,8 +14,8 @@ public class BulletBehaviour : MonoBehaviour
     private void Awake()
     {
         anim = GetComponent<Animator>();
-        bulletCollider = GetComponent<Collider2D>(); // Ambil collider apapun
-        Destroy(gameObject, destroyTime);
+        bulletCollider = GetComponent<Collider2D>();
+        Destroy(gameObject, destroyTime); // backup auto destroy
     }
 
     void Update()
@@ -31,6 +31,7 @@ public class BulletBehaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Jika kena Boss
         if (collision.CompareTag("Boss"))
         {
             BossHealth boss = collision.GetComponentInParent<BossHealth>();
@@ -41,13 +42,20 @@ public class BulletBehaviour : MonoBehaviour
 
             StartCoroutine(Hilang());
         }
+
+        // Jika kena Obstacle
+        if (collision.CompareTag("Obstacle"))
+        {
+            StartCoroutine(Hilang());
+        }
     }
 
     private IEnumerator Hilang()
     {
-        anim.SetTrigger("ilang");
+        anim.SetTrigger("shatter"); // ganti trigger sesuai animator (bulletshatter)
         speed = 0;
-        if (bulletCollider != null) // aman meski collider bukan Box
+
+        if (bulletCollider != null)
             bulletCollider.enabled = false;
 
         yield return new WaitForSeconds(wait);

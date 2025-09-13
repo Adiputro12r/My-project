@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 37213604}
   - component: {fileID: 37213603}
   m_Layer: 0
-  m_Name: boss
+  m_Name: Boss
   m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -581,16 +581,13 @@ MonoBehaviour:
   gameStartText: {fileID: 691350862}
   gameOverText: {fileID: 1022770703}
   retryButton: {fileID: 759999105}
-  score: 0
-  scoreText: {fileID: 485309579}
-  hiscoreText: {fileID: 1018676168}
+  coinText: {fileID: 354204393}
   initialGameSpeed: 10
   gameSpeedIncrease: 0.5
-  isGameStarted: 0
-  isGameOver: 0
-  coinText: {fileID: 354204393}
   coinCount: 0
   coinsToBoss: 3
+  isGameStarted: 0
+  isGameOver: 0
 --- !u!4 &100928594
 Transform:
   m_ObjectHideFlags: 0
@@ -2414,8 +2411,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 20/20
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f5e048bf95a77c4daa0f846589d7b94, type: 2}
+  m_sharedMaterial: {fileID: -598244952767678135, guid: 5f5e048bf95a77c4daa0f846589d7b94, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3944,16 +3941,14 @@ MonoBehaviour:
   objects:
   - prefab: {fileID: 7095939280781592092, guid: ce9ea8f2577cbb844978020af581cd16, type: 3}
     spawnChance: 0.05
-  - prefab: {fileID: 2888636401891820401, guid: 15fb5df0e35fff943b4aff2cf459522c, type: 3}
+  - prefab: {fileID: 7432801319074719309, guid: 285c6d683f2f1a94b85b593602fe538b, type: 3}
     spawnChance: 0.1
-  - prefab: {fileID: 3640408189476861280, guid: 6e4a3c89c71b0864589356f593bdd74e, type: 3}
+  - prefab: {fileID: 730584935507130508, guid: a7b8888202290b347b0d2282873b7b37, type: 3}
     spawnChance: 0.1
-  - prefab: {fileID: 2942694471478360752, guid: f78992c00a9a0d046a6adefa685bccd1, type: 3}
+  - prefab: {fileID: 9066189783740734665, guid: ff965f001bb9e1444aa812b121749e36, type: 3}
     spawnChance: 0.1
-  - prefab: {fileID: 5917351564105027394, guid: ab6f687b497d1314b92f5380af4ff074, type: 3}
-    spawnChance: 0.1
-  minSpawnRate: 0.7
-  maxSpawnRate: 0.8
+  minSpawnRate: 1
+  maxSpawnRate: 2
 --- !u!4 &1955551918
 Transform:
   m_ObjectHideFlags: 0
@@ -3986,7 +3981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2059478101
 RectTransform:
   m_ObjectHideFlags: 0

@@ -21,12 +21,14 @@ public class PlayerController2D : MonoBehaviour
 
     private void Update()
     {
+        // --- Kalau GameOver, hanya boleh restart ---
         if (GameManager.Instance.isGameOver)
         {
             if (Input.GetKeyDown(KeyCode.R))
             {
                 GameManager.Instance.NewGame();
             }
+            return; // stop semua input lain
         }
 
         // --- JUMP ---

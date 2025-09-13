@@ -38,4 +38,10 @@ public class BossHealth : MonoBehaviour
         if (healthText != null)
             healthText.text = currentHealth + "/" + maxHealth;
     }
+
+    public void ResetHealth()
+    {
+    currentHealth = maxHealth;
+    UpdateHealthUI();
+    }
 }

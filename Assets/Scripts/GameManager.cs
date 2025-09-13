@@ -7,38 +7,27 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    [Space(10)]
+    [Header("UI References")]
     public Animator animator;
-
-    [Space(10)]
     public TextMeshProUGUI gameStartText;
     public TextMeshProUGUI gameOverText;
     public Button retryButton;
+    public TextMeshProUGUI coinText;
 
-    [Space(10)]
-    public float score;
-
-    [Space(10)]
-    public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI hiscoreText;
-
-    private PlayerController2D player;
-    private ObstacleGenerator spawner;
-
-    [Space(10)]
+    [Header("Gameplay Settings")]
     public float initialGameSpeed = 5f;
     public float gameSpeedIncrease = 2f;
     public float gameSpeed { get; private set; }
 
-    [Space(10)]
+    [Header("Coin System")]
+    public int coinCount = 0;
+    public int coinsToBoss = 3; // syarat coin pindah boss
+
+    private PlayerController2D player;
+    private ObstacleGenerator spawner;
+
     public bool isGameStarted = false;
     public bool isGameOver = false;
-
-    // --- 🔹 Tambahan untuk coin ---
-    [Header("Coin System")]
-    public TextMeshProUGUI coinText;
-    public int coinCount = 0;
-    public int coinsToBoss = 20;
 
     private void Awake()
     {
@@ -61,9 +50,9 @@ public class GameManager : MonoBehaviour
 
         animator.SetBool("isGameStarted", false);
         gameSpeedIncrease = 0;
-        spawner.gameObject.SetActive(false);
+        if (spawner != null) spawner.gameObject.SetActive(false);
 
-        // 🔹 reset coin di awal
+        // reset coin
         coinCount = 0;
         if (coinText != null) coinText.text = "Coin: 0";
     }
@@ -80,11 +69,10 @@ public class GameManager : MonoBehaviour
         }
 
         gameSpeed = initialGameSpeed;
-        score = 0f;
         enabled = true;
 
         player.gameObject.SetActive(true);
-        spawner.gameObject.SetActive(true);
+        if (spawner != null) spawner.gameObject.SetActive(true);
 
         gameOverText.gameObject.SetActive(false);
         retryButton.gameObject.SetActive(false);
@@ -92,17 +80,19 @@ public class GameManager : MonoBehaviour
         isGameOver = false;
         animator.SetBool("isGameStarted", true);
 
-        // 🔹 reset coin
+        // reset coin
         coinCount = 0;
         if (coinText != null) coinText.text = "Coin: 0";
+
+        // reset boss health kalau ada boss
+        BossHealth boss = FindObjectOfType<BossHealth>();
+        if (boss != null) boss.ResetHealth();
     }
 
     public void GameStart()
     {
         gameOverText.gameObject.SetActive(false);
         retryButton.gameObject.SetActive(false);
-
-        UpdateHiscore();
 
         if (Input.GetKeyDown(KeyCode.Space) && !isGameStarted)
         {
@@ -118,25 +108,16 @@ public class GameManager : MonoBehaviour
         if (!isGameOver)
         {
             GameStart();
+
+            // 🔹 update game speed tiap frame
             gameSpeed += gameSpeedIncrease * Time.deltaTime;
-            score += gameSpeed * Time.deltaTime;
-            scoreText.text = Mathf.FloorToInt(score).ToString("D5");
-        }
-    }
 
-    private void UpdateHiscore()
-    {
-        float hiscore = PlayerPrefs.GetFloat("hiscore", 0);
-        hiscoreText.text = Mathf.FloorToInt(hiscore).ToString("D5");
-
-        if (isGameOver)
-        {
-            if (score > hiscore)
+            // 🔹 Scene Boss → cek boss mati
+            if (SceneManager.GetActiveScene().name == "boss")
             {
-                hiscore = score;
-                PlayerPrefs.SetFloat("hiscore", hiscore);
+                GameObject boss = GameObject.FindWithTag("Boss");
+                if (boss == null) SceneManager.LoadScene("play");
             }
-            hiscoreText.text = Mathf.FloorToInt(hiscore).ToString("D5");
         }
     }
 
@@ -146,22 +127,25 @@ public class GameManager : MonoBehaviour
         enabled = false;
 
         animator.SetBool("isGameOver", true);
-        spawner.gameObject.SetActive(false);
+        if (spawner != null) spawner.gameObject.SetActive(false);
 
         gameOverText.gameObject.SetActive(true);
         retryButton.gameObject.SetActive(true);
 
         isGameOver = true;
-        UpdateHiscore();
+
+        // reset boss health kalau ada
+        BossHealth boss = FindObjectOfType<BossHealth>();
+        if (boss != null) boss.ResetHealth();
     }
 
-    // --- 🔹 Fungsi Coin ---
+    // --- Coin ---
     public void AddCoin(int amount)
     {
         coinCount += amount;
         if (coinText != null) coinText.text = "Coin: " + coinCount;
 
-        if (coinCount >= coinsToBoss)
+        if (coinCount >= coinsToBoss && SceneManager.GetActiveScene().name != "boss")
         {
             SceneManager.LoadScene("boss");
         }

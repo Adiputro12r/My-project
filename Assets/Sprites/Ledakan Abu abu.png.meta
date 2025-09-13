@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: 4a6d9a6faaa7f5d479b77f6345d7a4af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2393497335314467728
+    second: Ledakan Abu abu_0
+  - first:
+      213: -4069929990544712838
+    second: Ledakan Abu abu_1
+  - first:
+      213: -313607995617981667
+    second: Ledakan Abu abu_2
+  - first:
+      213: -8843037276626851231
+    second: Ledakan Abu abu_3
+  - first:
+      213: 2193243586317019752
+    second: Ledakan Abu abu_4
+  - first:
+      213: 826587579819451277
+    second: Ledakan Abu abu_5
+  - first:
+      213: -4640811743535263915
+    second: Ledakan Abu abu_6
+  - first:
+      213: -8077387997581412420
+    second: Ledakan Abu abu_7
+  - first:
+      213: 234431065047814482
+    second: Ledakan Abu abu_8
+  - first:
+      213: -6889234173039015048
+    second: Ledakan Abu abu_9
+  - first:
+      213: 724433818747013759
+    second: Ledakan Abu abu_10
+  - first:
+      213: -1047780906645972886
+    second: Ledakan Abu abu_11
+  - first:
+      213: 3974574680965471088
+    second: Ledakan Abu abu_12
+  - first:
+      213: 1706175455517469318
+    second: Ledakan Abu abu_13
+  - first:
+      213: 4474930667036613665
+    second: Ledakan Abu abu_14
+  - first:
+      213: -7169398353520831056
+    second: Ledakan Abu abu_15
+  - first:
+      213: -9089994343487040498
+    second: Ledakan Abu abu_16
+  - first:
+      213: 7965136908775068407
+    second: Ledakan Abu abu_17
+  - first:
+      213: 4427630434143704754
+    second: Ledakan Abu abu_18
+  - first:
+      213: -9013651955664433967
+    second: Ledakan Abu abu_19
+  - first:
+      213: -5450745717800931301
+    second: Ledakan Abu abu_20
+  - first:
+      213: 8334023081638097405
+    second: Ledakan Abu abu_21
+  - first:
+      213: -8257540654364241394
+    second: Ledakan Abu abu_22
+  - first:
+      213: -5530732324498962376
+    second: Ledakan Abu abu_23
+  - first:
+      213: -2952378535443080062
+    second: Ledakan Abu abu_24
+  - first:
+      213: 942755383653540927
+    second: Ledakan Abu abu_25
+  - first:
+      213: -5026341817620130208
+    second: Ledakan Abu abu_26
+  - first:
+      213: -3831820214235528860
+    second: Ledakan Abu abu_27
+  - first:
+      213: 8456931139762625772
+    second: Ledakan Abu abu_28
+  - first:
+      213: -9071938819854244942
+    second: Ledakan Abu abu_29
+  - first:
+      213: 1004303347100614178
+    second: Ledakan Abu abu_30
+  - first:
+      213: 563413881284874193
+    second: Ledakan Abu abu_31
+  - first:
+      213: 6907423465833483406
+    second: Ledakan Abu abu_32
+  - first:
+      213: -5278543881672589309
+    second: Ledakan Abu abu_33
+  - first:
+      213: -7874022568643719401
+    second: Ledakan Abu abu_34
+  - first:
+      213: 6402824730723138091
+    second: Ledakan Abu abu_35
+  - first:
+      213: -3255545499207074644
+    second: Ledakan Abu abu_36
+  - first:
+      213: 1976843775212945049
+    second: Ledakan Abu abu_37
+  - first:
+      213: 2349309716101216169
+    second: Ledakan Abu abu_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ledakan Abu abu_1
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 743
+        width: 219
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b9fdcac34b487c0800000000000000
+      internalID: -4069929990544712838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledakan Abu abu_2
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 708
+        width: 282
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bc7768037d5abf0800000000000000
+      internalID: -313607995617981667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledakan Abu abu_3
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 633
+        width: 393
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a6e170378374580800000000000000
+      internalID: -8843037276626851231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledakan Abu abu_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 785
+        width: 121
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8363ee3601a87b00800000000000000
+      internalID: 826587579819451277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledakan Abu abu_6
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 771
+        width: 149
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f8e1dae46889fb0800000000000000
+      internalID: -4640811743535263915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledakan Abu abu_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 89
+        width: 529
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b55383d96882730800000000000000
+      internalID: 3974574680965471088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledakan Abu abu_22
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 78
+        width: 556
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02d5427682576d80800000000000000
+      internalID: -8257540654364241394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ledakan Abu abu_26
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 190
+        width: 247
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0669f016fb8de3ab0800000000000000
+      internalID: -5026341817620130208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 84f397342afee044aa101ebbb89bdf5c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ledakan Abu abu_19: 1919209380
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
