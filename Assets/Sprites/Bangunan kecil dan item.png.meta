@@ -1,0 +1,1067 @@
+fileFormatVersion: 2
+guid: a6a3b26565a3c6d42b4c1b282d5efebc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6904724426762517483
+    second: Bangunan kecil dan item_0
+  - first:
+      213: -1142312454775028825
+    second: Bangunan kecil dan item_1
+  - first:
+      213: 5607242626351382856
+    second: Bangunan kecil dan item_2
+  - first:
+      213: -5534780233249237245
+    second: Bangunan kecil dan item_3
+  - first:
+      213: 3057658169060303727
+    second: Bangunan kecil dan item_4
+  - first:
+      213: -4609672938740025976
+    second: Bangunan kecil dan item_5
+  - first:
+      213: -530368921250271712
+    second: Bangunan kecil dan item_6
+  - first:
+      213: -7629192300653971737
+    second: Bangunan kecil dan item_7
+  - first:
+      213: 6390142707100915943
+    second: Bangunan kecil dan item_8
+  - first:
+      213: -5105568434431107813
+    second: Bangunan kecil dan item_9
+  - first:
+      213: -6741087236412266181
+    second: Bangunan kecil dan item_10
+  - first:
+      213: 4876812519406550214
+    second: Bangunan kecil dan item_11
+  - first:
+      213: 4254119797813123824
+    second: Bangunan kecil dan item_12
+  - first:
+      213: 4995845710669609738
+    second: Bangunan kecil dan item_13
+  - first:
+      213: 2072504409626736535
+    second: Bangunan kecil dan item_14
+  - first:
+      213: -6419211500793449425
+    second: Bangunan kecil dan item_15
+  - first:
+      213: 9150655359394902482
+    second: Bangunan kecil dan item_16
+  - first:
+      213: -1173483223560281583
+    second: Bangunan kecil dan item_17
+  - first:
+      213: 2768526721828462081
+    second: Bangunan kecil dan item_18
+  - first:
+      213: -5048389143117490234
+    second: Bangunan kecil dan item_19
+  - first:
+      213: -4386493912699533600
+    second: Bangunan kecil dan item_20
+  - first:
+      213: 5057497640515329684
+    second: Bangunan kecil dan item_21
+  - first:
+      213: -5441600601911084016
+    second: Bangunan kecil dan item_22
+  - first:
+      213: 4865727556634913686
+    second: Bangunan kecil dan item_23
+  - first:
+      213: 6755250857856321936
+    second: Bangunan kecil dan item_24
+  - first:
+      213: -6285774987401618624
+    second: Bangunan kecil dan item_25
+  - first:
+      213: 1671091034858517295
+    second: Bangunan kecil dan item_26
+  - first:
+      213: -7940002034987274632
+    second: Bangunan kecil dan item_27
+  - first:
+      213: -7564098045061267504
+    second: Bangunan kecil dan item_28
+  - first:
+      213: -7171786164589608258
+    second: Bangunan kecil dan item_29
+  - first:
+      213: -7243255894377496958
+    second: Bangunan kecil dan item_30
+  - first:
+      213: 4425155324621442013
+    second: Bangunan kecil dan item_31
+  - first:
+      213: 3064563387162379261
+    second: Bangunan kecil dan item_32
+  - first:
+      213: -8871829397565330083
+    second: Bangunan kecil dan item_33
+  - first:
+      213: 5766762681696172032
+    second: Bangunan kecil dan item_34
+  - first:
+      213: -3362253184496825584
+    second: Bangunan kecil dan item_35
+  - first:
+      213: 8111642482123235461
+    second: Bangunan kecil dan item_36
+  - first:
+      213: 8521085682129901639
+    second: Bangunan kecil dan item_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 619
+        width: 435
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb7429884282df50800000000000000
+      internalID: 6904724426762517483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_1
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 622
+        width: 323
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a341a6efd0b520f0800000000000000
+      internalID: -1142312454775028825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 687
+        width: 431
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8414a11d57de0dd40800000000000000
+      internalID: 5607242626351382856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_3
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 617
+        width: 477
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307535fc3b28033b0800000000000000
+      internalID: -5534780233249237245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 479
+        width: 137
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63296397ebfe6a20800000000000000
+      internalID: 3057658169060303727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 483
+        width: 202
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8857ba3a2e62700c0800000000000000
+      internalID: -4609672938740025976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_6
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 477
+        width: 237
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e68f0b640c3a8f0800000000000000
+      internalID: -530368921250271712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_7
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 403
+        width: 282
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6ff54160aaf1690800000000000000
+      internalID: -7629192300653971737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_8
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 53
+        width: 158
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e89dc88fe85ea850800000000000000
+      internalID: 6390142707100915943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_9
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 443
+        width: 148
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d59413f806529b0800000000000000
+      internalID: -5105568434431107813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_10
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 443
+        width: 148
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b392ab1dfd8d272a0800000000000000
+      internalID: -6741087236412266181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_11
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 454
+        width: 158
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccb76fd52beda340800000000000000
+      internalID: 4876812519406550214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_12
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 431
+        width: 126
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa9b94ba6ba90b30800000000000000
+      internalID: 4254119797813123824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 377
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bfe19643fc45540800000000000000
+      internalID: 4995845710669609738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 381
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7977b3ba7c303cc10800000000000000
+      internalID: 2072504409626736535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 377
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24ba1586216ae6a0800000000000000
+      internalID: -6419211500793449425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 375
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1f1ce2198adfe70800000000000000
+      internalID: 9150655359394902482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_17
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 379
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1122fcdb933f6bfe0800000000000000
+      internalID: -1173483223560281583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_18
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 375
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e13cd9268cb6620800000000000000
+      internalID: 2768526721828462081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_19
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 231
+        width: 122
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c71b8462d480f9b0800000000000000
+      internalID: -5048389143117490234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 381
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6812ce60b0023c0800000000000000
+      internalID: -4386493912699533600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_21
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 385
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eda4bee47df2640800000000000000
+      internalID: 5057497640515329684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_22
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 381
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cb989551d8b74b0800000000000000
+      internalID: -5441600601911084016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_23
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 227
+        width: 123
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bad0bde69868340800000000000000
+      internalID: 4865727556634913686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_24
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 223
+        width: 123
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099cd274dd87fbd50800000000000000
+      internalID: 6755250857856321936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_25
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 371
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b14e1d3f074c8a0800000000000000
+      internalID: -6285774987401618624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_26
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 367
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23f4104178e03710800000000000000
+      internalID: 1671091034858517295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_27
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 278
+        width: 291
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e64b497327fc190800000000000000
+      internalID: -7940002034987274632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_28
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 275
+        width: 288
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df75e187ece60790800000000000000
+      internalID: -7564098045061267504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 227
+        width: 123
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb243962b72b87c90800000000000000
+      internalID: -7171786164589608258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 354
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eff56f329ca7b90800000000000000
+      internalID: -7243255894377496958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_31
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 366
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb4dff725f496d30800000000000000
+      internalID: 4425155324621442013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_32
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 225
+        width: 122
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df34b73f924878a20800000000000000
+      internalID: 3064563387162379261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_33
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 222
+        width: 122
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d204afa2ee0e480800000000000000
+      internalID: -8871829397565330083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_34
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 329
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008ba7afa18a70050800000000000000
+      internalID: 5766762681696172032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_35
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 359
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b042dea80e651d0800000000000000
+      internalID: -3362253184496825584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_36
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 67
+        width: 125
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5806ce33cd7529070800000000000000
+      internalID: 8111642482123235461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bangunan kecil dan item_37
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 65
+        width: 328
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7481500084af04670800000000000000
+      internalID: 8521085682129901639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

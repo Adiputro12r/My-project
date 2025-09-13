@@ -21,7 +21,8 @@ public class PlayerController2D : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.Instance.isGameOver) {
+        if (GameManager.Instance.isGameOver)
+        {
             if (Input.GetKeyDown(KeyCode.R))
             {
                 GameManager.Instance.NewGame();
@@ -35,7 +36,6 @@ public class PlayerController2D : MonoBehaviour
             isGrounded = false;
             animator.SetBool("isJump", true);
 
-            // 🔊 Mainkan sound jump
             SoundManager.Instance.Play("jump");
         }
 
@@ -48,9 +48,6 @@ public class PlayerController2D : MonoBehaviour
                 colliderRun.enabled = false;
                 colliderSlide.enabled = true;
                 animator.SetBool("isSliding", true);
-
-                // 🔊 Mainkan sound slide
-                SoundManager.Instance.Play("slide");
             }
         }
         else if (isSliding && isGrounded)
@@ -87,9 +84,12 @@ public class PlayerController2D : MonoBehaviour
         {
             GameManager.Instance.GameOver();
             animator.SetBool("isGameOver", true);
-
-            // 🔊 Mainkan sound death
-            SoundManager.Instance.Play("death");
+        }
+        else if (other.CompareTag("Coin"))
+        {
+            GameManager.Instance.AddCoin(1);
+            SoundManager.Instance.Play("coin");
+            Destroy(other.gameObject);
         }
     }
 }
